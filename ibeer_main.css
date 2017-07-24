@@ -168,6 +168,9 @@ article time{
     color: #666;
 }
 article img{
+  float:right;
+  height: 200px;
+  width: 300px;
     /*
         TODO:
         - Float article images to the right
@@ -175,6 +178,14 @@ article img{
     */
 }
 article footer p{
+  line-height: 1em;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
+  color: #666
     /*
         TODO:
         - Style the article footer
@@ -182,8 +193,10 @@ article footer p{
     */
 }
 #site-footer{
-
-    background: #333;
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 20px;
     /*
         TODO:
         - Style the site footer
